@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Basket</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header section containing the title of the webpage -->
+    <header>
+      <h1>Food Basket</h1>
+    </header>
+    <!-- Main container for the search functionality -->
+    <div class="container">
+      <div class="center">
+        <!-- Input field where users can type to search for food items -->
+        <!-- 'onkeyup' triggers the 'handleUserInput' function whenever a key is pressed and released -->
+        <input type="text" id="search-text" onkeyup="handleUserInput(event)" />
+        <!-- Div containing the list of suggestions, which will be dynamically populated based on user input -->
+        <div class="suggestionList">
+          <ul id="suggestion-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

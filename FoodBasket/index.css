@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  color: gray;
+}
+
+input {
+  width: 500px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid grey;
+  font-size: x-large;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestionList {
+  height: 300px;
+  width: 500px;
+  overflow-y: auto;
+}
+
+ul {
+  color: gray;
+  font-size: large;
+  list-style: none;
+}
+
+ul li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
