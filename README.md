@@ -11,3 +11,5 @@ This repository contains a collection of JavaScript examples designed to help de
 
 ### Content
 - **Food Basket :** The Food Basket app is a simple web application where users can search for food items using an input field. As the user types, suggestions matching their query are dynamically displayed below the input field in a suggestion list. The app is styled with an external CSS file and utilizes JavaScript to handle user input and update the suggestions in real-time. The layout includes a header with the app's title and a container for the search bar and suggestions.
+  
+![Food Basket](FoodBasket/images/image.png)
