@@ -13,3 +13,5 @@ This repository contains a collection of JavaScript examples designed to help de
 - **Food Basket :** The Food Basket app is a simple web application where users can search for food items using an input field. As the user types, suggestions matching their query are dynamically displayed below the input field in a suggestion list. The app is styled with an external CSS file and utilizes JavaScript to handle user input and update the suggestions in real-time. The layout includes a header with the app's title and a container for the search bar and suggestions.
   
 ![Food Basket](FoodBasket/images/image.png)
+
+- **Student High School Journey :** This is a mini project designed to demonstrate how promises work in JavaScript. In this scenario, we use 4 students to illustrate how they progress from junior school to high school. Just as in real life, a student cannot directly jump to middle or high school; they must follow a sequential path. Similarly, in a promise chain, each promise resolves one after another. If any promise fails, the remaining promises will not be executed, and the chain will break immediately.
