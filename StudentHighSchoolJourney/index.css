@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #909497;
+}
+.students {
+    display: grid;
+    grid-template-rows: 100px 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+.students img {
+    cursor: pointer;
+}
+.junior-school {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+}
+.middle-school {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+}
+.high-school {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8f8c8c;
+    color: #34495e;
+}
+.item-passed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8f8c8c;
+    background-color: #a3e4d7;
+    color: #0e6655;
+}
+.item-failed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8f8c8c;
+    background-color: #e6b0aa;
+    color: #7b241c;
+}
+.item-result {
+    grid-column: 1/5;
+    background-color: #f2f3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
